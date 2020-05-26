@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>coreServlet</servlet-name>
+        <servlet-class>top.cxh.server.mincat3.MyCoreServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>coreServlet</servlet-name>
+        <url-pattern>/core</url-pattern>
+    </servlet-mapping>
+</web-app>
